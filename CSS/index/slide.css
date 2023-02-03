@@ -1,0 +1,36 @@
+/* 
+  TUGAS UAS 
+  NAMA  = RYAN MUHAMMAD HILDAN
+  NIM   = 10122475
+  KELAS = IF-9
+*/
+.slider {
+  width: 100%;
+  margin: 40px 100px auto auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #ff4655;
+}
+
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+  opacity: 0.2;
+}
+
+.slick-active {
+  opacity: 0.2;
+}
+
+.slick-current {
+  opacity: 1;
+}

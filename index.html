@@ -1,0 +1,399 @@
+<!--
+    TUGAS UAS 
+    NAMA  = RYAN MUHAMMAD HILDAN
+    NIM   = 10122475
+    KELAS = IF-9
+-->
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Logo Title -->
+    <link rel="icon" href="Assets/Logo/V_Logomark_Red.png" />
+    <!-- Logo Title End -->
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="CSS/index/home.css" />
+    <link rel="stylesheet" href="CSS/index/navigation-bar.css" />
+    <link rel="stylesheet" href="CSS/index/footer.css" />
+    <link rel="stylesheet" href="CSS/index/slide.css">
+    <link rel="stylesheet" href="Slick/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="Slick/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="CSS/font-worksans.css">
+    <!-- Link CSS End -->
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <!-- jQuery End -->
+
+    <!-- Java Script -->
+    <script src="JS/home.js" type="text/javascript"></script>
+    <script src="JS/slide.js" type="text/javascript"></script>
+    <script src="Slick/slick-1.8.1/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="Slick/slick-1.8.1/slick/slick.min.js"></script>
+    <!-- Java Script End -->
+
+    <title>VALORANT</title>
+
+  </head>
+  
+  <body>
+
+    <!-- Loader -->
+    <div class="preloader-web">
+      <div class="loader"></div>
+    </div>
+    <!-- Loader End -->
+
+    <!-- Valorant Navigation Bar -->
+    <nav>
+      <div class="nav-container">
+        <a href="index.html" class="logo">
+          <img src="Assets/Logo/V_Logotype_Red.png" alt="valorant-logo">
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="navbar-menu">
+          <li><a href="#index">Home</a></li>
+          <li><a href="#agent">Agents</a></li>
+          <li><a href="#bundle">Bundle</a></li>
+          <li><a href="#maps">Maps</a></li>
+          <li><a href="Pages/playnow.html" class="now">Play Now</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Valorant Navigation Bar End -->
+
+    <!-- Video Background -->
+    <div class="videoheader" id="index">
+      <video id="video-background" width="auto" preload="true" muted loop>
+        <source src="Assets/Video-Official/Homepage1.mp4">
+      </video>
+    <!-- Video Background End -->
+
+    <main>
+      <!-- Introduction/Perkenalan -->
+      <section class="section-introduction-header">
+        <div class="container introduction-header">
+          <h1>VALORANT INDONESIA</h1>
+          <p>Penembak taktis berbasis karakter 5v5</p>
+        </div>
+        <div class="wrapper firstWrapper">
+          <!-- <img src="Assets/Fan Art Illustration/Risu - FanArt.png" alt="" class="image-wrapperRisu"> -->
+          <div class="boxInfo info-1">
+            <h1>Kami memiliki 999+ pemain yang active diseluruh dunia</h1>
+            <p>Kami mempunyai pemain yang berada di seluruh DUNIA! Kalian bisa bersosialisasi dan mencari
+              teman baru untuk bermain VALORANT bersama!</p>
+            <a href="Pages/playnow.html"><button class="button-fanpage">DOWNLOAD</button></a>
+          </div>
+          <div class="boxInfo info-2">
+            <h1>Kami juga melakukan berbagai Events!</h1>
+            <p>Kami menyediakan events atau tournament yang sangat seru tentunya dan para fans VALORANT berkesempatan bertanding
+            dengan Player favorit mereka!</p>
+          </div>
+          <!-- <div class="boxInfo info-3">
+            <h1>Menyediakan informasi terbaru seputar Peta Valorant</h1>
+            <p>Kalian bisa melihat informasi seputar Peta terbaru dan bisa mempelajarinya!</p>
+          </div> -->
+        </div>
+        <!-- <div class="wrapper final-wrapper">
+          <img src="Assets/Photoshop Assets/background-notebook.png" alt="" width="100%">
+          <div class="boxInfo final-boxInfo">
+            <h1>Menyediakan Informasi terbaru seputar VALORANT Agents</h1>
+            <p>Kami menyediakan informasi terlengkap dan terbaru seputar VALORANT Agents, untuk kamu yang suka dengan
+              Agents favorit kalian!</p>
+            <a href="talent.html"><button class="button-fanpage">Info Agents</button></a>
+          </div>
+        </div> -->
+      </section>
+      <section class="other-agents" id="agent">
+        <h1><span>///</span> AGENTS</h1>
+        <div class="agents-container">
+          <a href="#astra" class="agent" id="astra"><img src="Assets/Agent/astra.png" alt="" /></a>
+          <a href="#breach" class="agent" id="breach"><img src="Assets/Agent/breach.png" alt="" /></a>
+          <a href="#brim" class="agent" id="brimstone"><img src="Assets/Agent/brimstone.png" alt="" /></a>
+          <a href="#cypher" class="agent" id="cypher"><img src="Assets/Agent/cypher.png" alt="" /></a>
+          <a href="#jett" class="agent" id="jett"><img src="Assets/Agent/jett.png" alt="" /></a>
+          <a href="#KAYO" class="agent" id="kayo"><img src="Assets/Agent/kayo.png" alt="" /></a>
+          <a href="#killjoy" class="agent" id="killjoy"><img src="Assets/Agent/killjoy.png" alt="" /></a>
+          <a href="#omen" class="agent" id="omen"><img src="Assets/Agent/omen.png" alt="" /></a>
+          <a href="#phoenix" class="agent" id="phoenix"><img src="Assets/Agent/phoenix.png" alt="" /></a>
+          <a href="#raze" class="agent" id="raze"><img src="Assets/Agent/raze.png" alt="" /></a>
+          <a href="#reyna" class="agent" id="reyna"><img src="Assets/Agent/reyna.png" alt="" /></a>
+          <a href="#sage" class="agent" id="sage"><img src="Assets/Agent/sage.png" alt="" /></a>
+          <a href="#skye" class="agent" id="skye"><img src="Assets/Agent/skye.png" alt="" /></a>
+          <a href="#sova" class="agent" id="sova"><img src="Assets/Agent/sova.png" alt="" /></a>
+          <a href="#viper" class="agent" id="viper"><img src="Assets/Agent/viper.png" alt="" /></a>
+          <a href="#yoru" class="agent" id="yoru"><img src="Assets/Agent/yoru.png" alt="" /></a>
+        </div>
+      </section>
+      <!-- Introduction/Perkenalan End -->
+
+      <!-- <div class="wearevalo">
+        <div class="tittlevalo">WE ARE VALORANT</div>
+        <div class="desvalo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis autem at, 
+          itaque maxime ipsa accusamus soluta voluptate nobis eos, alias ea ab odio quibusdam quas hic, 
+          corrupti molestiae fugit magni!</div>
+      </div> -->
+
+      <!-- Perkenalan VALORANT INDONESIA -->
+      <!-- <section class="Valorant">
+        <div class="container about-Valorant">
+          <h1>VALORANT INDONESIA</h1>
+          <p>lorem</p>
+        </div>
+
+        <div class="container information-Valorant">
+          <div class="column one">
+            <h1>Tujuan</h1>
+            <p>lorem</p>
+          </div>
+          <div class="column two">
+            <h1>Visi</h1>
+            <p>lorem</p>
+          </div>
+          <div class="column three">
+            <h1>Misi</h1>
+            <p>lorem</p>
+          </div>
+        </div>
+      </section> -->
+      <!-- Perkenalan VALORANT INDONESIA End-->
+
+      <!-- Bundle Valorant -->
+      <section class="section-achievementsValorant" id="bundle">
+        <div class="container achievementsValorant">
+          <h1>/// Bundle</h1>
+          <div class="center slider" style="width: 100%;">
+            <div class="sliderContent">
+              <img src="Assets/Bundle/ValorantWallpaper_Oni.jpg" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Bundle/ValorantWallpaper_Singularity.jpg" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Bundle/ValorantWallpaper_Cryo.jpg" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Bundle/ValorantWallpaper_Elderflame.jpg" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Bundle/ValorantWallpaper_Prime.jpg" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Bundle/ValorantWallpaper_Rgx2.jpg" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Bundle/ValorantWallpaper_Reaver.jpg" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Bundle/ValorantWallpaper_Forsaken.jpg" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Bundle/ValorantWallpaper_Glitchpop.jpg" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Bundle/ValorantWallpaper_Hammertime.jpg" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Bundle/ValorantWallpaper_Shark.jpg" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Bundle/ValorantWallpaper_Radiantcrisis.jpg" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Bundle/ValorantWallpaper_Protocol.jpg" alt="Valorant_Gun" >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Bundle Valorant End -->
+
+      <!-- Official Events Valorant -->
+      <section class="section-events" id="maps">
+        <div class="container achievementsValorant">
+          <h1>/// Maps</h1>
+          <div class="center slider" style="width: 100%;">
+            <div class="sliderContent">
+              <img src="Assets/Maps/split.png" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Maps/pearl.png" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Maps/lotus.png" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Maps/icebox.png" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Maps/haven.png" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Maps/fracture.png" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Maps/breeze.png" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Maps/bind.png" alt="Valorant_Gun" >
+            </div>
+            <div class="sliderContent">
+              <img src="Assets/Maps/ascent.png" alt="Valorant_Gun" >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Official Events Valorant END -->
+
+      <!-- Official Videos -->
+      <section class="section-officialVideoValo" id="ofcvideo">
+        <div class="container achievementsValorant">
+          <h1>/// Official Videos</h1>
+          <div class="center slider">
+            <div class="sliderContent">
+              <a href="https://www.youtube.com/watch?v=WBeXTCPdgzo" target="_blank" rel="noopener noreferrer"><img
+                  src="Assets/Thumbnail/harbor-fan-beat.webp" alt="Official_Video" width="100%"></a>
+              <i class="fa fa-play-circle play-2"></i>
+            </div>
+            <div class="sliderContent">
+              <a href="https://www.youtube.com/watch?v=kwB4ycDxyco" target="_blank" rel="noopener noreferrer"><img
+                  src="Assets/Thumbnail/make-waves.webp" alt="Official_Video" width="100%"></a>
+              <i class="fa fa-play-circle play-1"></i>
+            </div>
+            <div class="sliderContent">
+              <a href="https://www.youtube.com/watch?v=7zpPkcKWPVE" target="_blank" rel="noopener noreferrer"><img
+                  src="Assets/Thumbnail/ion.webp" alt="Official_Video" width="100%"></a>
+              <i class="fa fa-play-circle play-1"></i>
+            </div>
+            <div class="sliderContent">
+              <a href="https://www.youtube.com/watch?v=kBmGqb1oqsA" target="_blank" rel="noopener noreferrer">
+                <img src="Assets/Thumbnail/your-moment.webp"></a>
+              <i class="fa fa-play-circle play-1"></i>
+            </div>
+            <div class="sliderContent">
+              <a href="https://www.youtube.com/watch?v=Sb22sSA7oTE" target="_blank" rel="noopener noreferrer"><img
+                  src="Assets/Thumbnail/pearl.webp" alt="Official_Video" width="100%"></a>
+              <i class="fa fa-play-circle play-2"></i>
+            </div>
+            <div class="sliderContent">
+              <a href="https://www.youtube.com/watch?v=e7VOQ1l20eo" target="_blank" rel="noopener noreferrer"><img
+                  src="Assets/Thumbnail/fade.webp" alt="Official_Video" width="100%"></a>
+              <i class="fa fa-play-circle play-1"></i>
+            </div>
+            <div class="sliderContent">
+              <a href="https://www.youtube.com/watch?v=rFY2sjbrCEk" target="_blank" rel="noopener noreferrer"> <img
+                  src="Assets/Thumbnail/ep4act2.webp" alt="Official_Video" width="100%"></a>
+              <i class="fa fa-play-circle play-1"></i>
+            </div>
+            <div class="sliderContent">
+              <a href="https://www.youtube.com/watch?v=zCUlPOvGiLQ" target="_blank" rel="noopener noreferrer"> <img
+                  src="Assets/Thumbnail/neon.webp" alt="Official_Video" width="100%"></a>
+              <i class="fa fa-play-circle play-1"></i>
+            </div>
+            <div class="sliderContent">
+              <a href="https://www.youtube.com/watch?v=OyLHi34Qzv4" target="_blank" rel="noopener noreferrer"><img
+                  src="Assets/Thumbnail/warmup.webp"></a>
+              <i class="fa fa-play-circle play-2"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Official Videos END -->
+
+    </main>
+    <footer>
+      <div class="contactUs">
+        <img src="Assets/Logo/V_Logotype_Red.png" alt="V_Logotype_Red">
+        <br>
+          <address>
+            UNIKOM - INDONESIA<br>
+            <a class="button-linkTree" href="Pages/playnow.html" target="_blank">DOWNLOAD</a>
+          </address>
+      </div>
+      <ul class="footer-Nav">
+        <li class="footer-navList footer-navListExtra">
+          <h2 class="nav-title">Agents</h2>
+          <ul class="footer-navUl footer-navUlExtra">
+            <li><a href="#agent">Jett</a></li>
+            <li><a href="#agent">Raze</a></li>
+            <li><a href="#agent">Breach</a></li>
+            <li><a href="#agent">Omen</a></li>
+            <li><a href="#agent">Brimstone</a></li>
+            <li><a href="#agent">Phoenix</a></li>
+            <li><a href="#agent">Sage</a></li> 
+            <li><a href="#agent">Sova</a></li>
+            <li><a href="#agent">Viper</a></li>
+            <li><a href="#agent">Chyper</a></li>
+            <li><a href="#agent">Reyna</a></li>
+            <li><a href="#agent">Killjoy</a></li>
+            <li><a href="#agent">Skye</a></li>
+            <li><a href="#agent">Yoru</a></li>
+            <li><a href="#agent">Astra</a></li>
+            <li><a href="#agent">Kay/o</a></li> 
+            <li><a href="#agent">Chamber</a></li> 
+          </ul>
+        </li>
+        <li class="footer-navList">
+          <h2 class="nav-title">More Info</h2>
+          <ul class="footer-navUl">
+            <li><a href="#bundle">Bundle</a></li>
+            <li><a href="#maps">Maps</a></li>
+            <li><a href="#ofcvideo">Official Videos</a></li>
+          </ul>
+        </li>
+        <!-- <li class="footer-navList">
+          <h2 class="nav-title">DOWNLOAD</h2>
+          <ul class="footer-navUl">
+            <li><a href="https://valorant.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.live.ap.exe">Download</a></li>
+          </ul>
+        </li> -->
+      </ul>
+      <div class="copyright">
+        <p>Tugas UAS UNIKOM</p>
+        <div class="madeBy">
+          <span>Made by Ryan Muhammad Hildan</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Slider -->
+    <script>
+      $(document).on('ready', function () {
+        $('.center').slick({
+          centerMode: true,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          centerPadding: '60px',
+          slidesToShow: 3,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+              }
+            }
+          ]
+        });
+      });
+    </script>
+    <!-- Slider END -->
+  </body>
+
+</html>
